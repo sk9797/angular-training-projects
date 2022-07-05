@@ -1,0 +1,11 @@
+<div>
+  <label for="firstVal" [class.unselected] = "!firstVal" >
+    <input type="radio" name="val" id="firstVal" [checked]="firstVal" (click)="toggleBtnFirst()" >
+    <p>First Value</p>
+  </label>
+  <label for="secVal" [class.unselected] = "!secVal">
+    <input type="radio" name="val" id="secVal" [checked]="secVal"  (click)="toggleBtnSec()" >
+    <p>Second Value</p>
+  </label>
+
+</div>

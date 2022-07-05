@@ -1,0 +1,27 @@
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.header_nav{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.nav_link{
+  text-decoration: none;
+  color: #000;
+}
+
+.nav_link.--active{
+  color: green;
+}
+
+.logo a{
+  text-decoration: none;
+  color: #000;
+}
